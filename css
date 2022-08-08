@@ -1,0 +1,234 @@
+.body {
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  line-height:1.5em;
+}
+
+/* LADO ESQUERDO */
+.name-wrapper {
+  color:rgb(46, 9, 9);
+}
+ h1 {
+    font-size:1.5em;
+    text-align:center;
+    font-family: 'Varela Round', sans-serif;
+    text-transform:uppercase;
+    line-height:1em;
+    padding-top:40px;
+    }
+
+img {
+  border-radius: 50%;
+}
+
+.resume-wrapper {
+  position:relative;
+  text-align:center;
+}
+
+.profile {
+  background:#fffafa;
+  width:30%;
+  float:left;
+}
+
+/* APLICATIVOS */
+.fa {
+  margin-top:10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* EFEITO HOVER */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* ÍCONES */
+
+/* Linkedin */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* GOOGLE */
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+/* INSTAGRAM */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.contact-info {
+  margin-top:30px;
+  font-weight:300; 
+}
+
+li {
+  margin-bottom:20px;
+}
+
+.list-titles {
+  float:left;
+  width:40%;
+  text-align:left;
+  font-weight:600;
+}
+
+.list-content {
+  float:center;
+  width:80%;
+  text-align:left;
+  font-weight:300;
+}
+
+/* FORMULÁRIO DE CONTATO */
+
+form {
+  float:center;
+  width:100%;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+label {
+display: inline-block;
+width: 90px;
+text-align:center;
+}
+
+input, textarea {
+font-family: 'Varela Round', sans-serif;
+width: 300px;
+box-sizing: border-box;
+border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+border-color: #000;
+}
+
+textarea {
+vertical-align: top;
+height: 5em;
+}
+
+.button:hover {
+opacity: 0.7;
+}
+
+
+/* LADO DIREITO */
+.time {
+  font-style: italic;
+}
+
+ /* EXPERIÊNCIA */
+.experience {
+  background:rgb(51, 50, 50);
+  width:70%;
+  float:left;
+  color:rgb(46, 9, 9);
+  position:relative;
+  font-weight:300;
+  min-height:100%;
+  min-height:100vh;
+}  
+
+.experience-title {
+  color:white;
+  text-align:left;
+  text-transform:uppercase;
+  font-size:1.2em;
+  margin-bottom:30px;
+  padding-left:2%;
+}
+
+.company-wrapper {
+  width:20%;
+  float:left;
+  text-align:left;
+  padding-right:10%;
+  padding-left:2%;
+  margin-bottom:20px;
+}
+
+.job-wrapper {
+  width:60%;
+  float:left;
+  text-align:left;
+  padding-right:5%;
+  margin-bottom:60px;
+}
+
+/* FORMAÇÃO ACADÊMICA */
+.degree {
+  background:rgb(51, 50, 50);
+  width:70%;
+  float:left;
+  color:rgb(46, 9, 9);
+  position:relative;
+  font-weight:300;
+  min-height:100%;
+  min-height:100vh;
+}
+
+.degree-title {
+  color:white;
+  text-align:left;
+  text-transform:uppercase;
+  font-size:1.2em;
+  margin-bottom:30px;
+  padding-left:2%;
+}
+
+.school-wrapper {
+  width:20%;
+  float:left;
+  text-align:left;
+  padding-right:10%;
+  padding-left:2%;
+  margin-bottom:20px;
+}
+
+.degree-description {
+  width:60%;
+  float:left;
+  text-align:left;
+  padding-right:5%;
+  margin-bottom:60px;
+}
+
+/* HOBBIES */
+.hobbies {
+  background:rgb(51, 50, 50);
+  width:100%;
+  float:left;
+  color:rgb(46, 9, 9);
+  position:relative;
+  font-weight:300;
+  min-height:100%;
+  min-height:100vh;
+}
+
+.hobbies-title {
+  color:white;
+  text-align:left;
+  text-transform:uppercase;
+  font-size:1.2em;
+  margin-bottom:30px;
+  padding-left:2%;
+}
+
+.hobbies-description {
+padding-left:2%;
+}
